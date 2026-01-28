@@ -1,0 +1,20 @@
+import datetime
+
+log_entry = {
+    "timestamp": datetime.datetime.now(),
+    "employees_evaluated": len(fairness_data),
+    "male_attrition_rate": male_rate,
+    "female_attrition_rate": female_rate,
+    "disparate_impact": disparate_impact,
+    "statistical_parity_diff": statistical_parity
+}
+
+log_df = pd.DataFrame([log_entry])
+
+try:
+    existing = pd.read_csv("fairness_log.csv")
+    log_df = pd.concat([existing, log_df], ignore_index=True)
+except FileNotFoundError:
+    pass
+
+log_df.to_csv("fairness_log.csv", index=False)

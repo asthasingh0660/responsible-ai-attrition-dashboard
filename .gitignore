@@ -1,0 +1,13 @@
+# Python
+__pycache__/
+*.pyc
+venv/
+.env
+
+# Data & models
+data/*.csv
+*.pkl
+
+# OS
+.DS_Store
+Thumbs.db
