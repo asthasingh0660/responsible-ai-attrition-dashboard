@@ -1,5 +1,9 @@
 # HR Attrition Analytics and Responsible AI Decision Support Dashboard
 
+## Live Demo
+
+https://responsible-ai-attrition-dashboard.streamlit.app/
+
 ## Overview
 
 Employee attrition is a critical challenge for organizations, impacting productivity, costs, and workforce stability.  
