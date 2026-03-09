@@ -1,0 +1,5 @@
+Model,Accuracy,F1 Score,AUC,CV AUC (5-fold),Disparate Impact,Statistical Parity Diff
+Logistic Regression,0.839,0.0,0.636,0.665,,0.0
+Random Forest,0.807,0.175,0.583,0.648,1.252,0.017
+Neural Network (MLP),0.814,0.163,0.615,0.666,1.495,0.025
+XGBoost,0.791,0.193,0.565,0.624,1.274,0.024

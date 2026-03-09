@@ -5,8 +5,8 @@ venv/
 .env
 
 # Data & models
-data/*.csv
-*.pkl
+
+
 
 # OS
 .DS_Store

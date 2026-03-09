@@ -1,0 +1,5 @@
+Model,Accuracy,F1 Score,AUC,Pred Rate (Female),Pred Rate (Male),Disparate Impact,Stat Parity Diff,Equal Opportunity Diff,Fairness Verdict
+Logistic Regression,0.839,0.0,0.636,0.0,0.0,,0.0,0.0,✅ Fair
+Neural Network MLP,0.814,0.163,0.615,0.077,0.051,1.495,0.025,0.004,DI above 1.25 (male under-predicted)
+Random Forest,0.807,0.175,0.583,0.083,0.066,1.252,0.017,-0.018,DI above 1.25 (male under-predicted)
+XGBoost,0.791,0.193,0.565,0.112,0.088,1.274,0.024,-0.002,DI above 1.25 (male under-predicted)
