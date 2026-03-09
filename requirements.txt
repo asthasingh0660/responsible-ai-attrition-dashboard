@@ -6,3 +6,4 @@ seaborn
 shap
 joblib
 streamlit
+xgboost
